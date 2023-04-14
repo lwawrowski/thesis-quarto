@@ -1,0 +1,36 @@
+---
+title: "Praca dyplomowa"
+author: "Łukasz Wawrowski"
+format: 
+  docx:
+    toc: true
+    number-sections: true
+    toc-title: Spis treści
+editor: visual
+bibliography: references.bib
+csl: apa.csl
+---
+
+# Wstęp
+
+# Wprowadzenie
+
+Przedstawiony problem został opisany w pracy [@szarfenberg2007ubostwo].
+
+```{r}
+#| label: tbl-cars
+#| tbl-cap: Statystyki samochodów
+
+
+knitr::kable(head(cars))
+```
+
+# Metody
+
+# Analiza
+
+# Zakończenie
+
+# Bibliografia
+
+spis rysunków i tabel
