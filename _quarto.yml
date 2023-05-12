@@ -2,10 +2,10 @@ project:
   type: book
 
 book:
-  title: "Wykorzystanie metod Big Data w prognozowaniu"
-  subtitle: "Utitlization of Big Data methods in forecasting"
-  author: "Łukasz Wawrowski"
+  title: "Wykorzystanie metod Big Data w prognozowaniu zapotrzebowania na nauczycieli akademickich"
+  subtitle: "Utitlization of Big Data methods in demand forecasting for academic teachers"
   date: "2023"
+  date-format: "[Poznań] YYYY"
   chapters:
     - index.qmd
     - rozdzial1-opis.qmd
@@ -21,10 +21,32 @@ csl: apa.csl
 lang: pl
 
 format:
-  pdf:
-    documentclass: scrreprt
+  titlepage-pdf:
+    titlepage: academic
+    titlepage-header: "Imię Nazwisko"
+    titlepage-footer: "Promotor: dr Łukasz Wawrowski"
+    titlepage-logo: "figs/cdv.png"
     lof: true
     lot: true
-
+    titlepage-theme:
+      elements: ["\\logoblock", "Studia podyplomowe Big Data Analytics & Society \\vspace{1.5cm}", 
+      "\\headerblock", "\\titleblock", "Praca dyplomowa \\vspace{3cm}", 
+      "\\footerblock", "\\vfill", "\\dateblock"]
+      page-align: "center"
+      title-style: "doublelinetight"
+      title-fontstyle: ["huge", "bfseries"]
+      title-space-after: "1.5cm"
+      subtitle-fontstyle: "huge"
+      author-style: "two-column"
+      affiliation-style: "none"
+      author-fontstyle: "textsc"
+      affiliation-fontstyle: "large"
+      logo-size: "0.6\\textwidth"
+      logo-space-after: "2\\baselineskip"
+      header-fontstyle: ["textsc", "LARGE"]
+      header-space-after: "1.5cm"
+      date-fontstyle: "large"
+      footer-align: "right"
+      footer-space-after: "3cm"
 
 

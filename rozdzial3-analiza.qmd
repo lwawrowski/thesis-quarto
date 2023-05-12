@@ -44,6 +44,8 @@ Wykres rozrzutu przedstawiający wynagrodzenie przedstawia @fig-wynagrodzenie.
 
 ```{r}
 #| echo: false
+#| message: false
+#| warning: false
 #| label: fig-wynagrodzenie
 #| fig-cap: Porównanie bieżącego i początkowego wynagrodzenia pracowników
 
