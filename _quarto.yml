@@ -1,0 +1,30 @@
+project:
+  type: book
+
+book:
+  title: "Wykorzystanie metod Big Data w prognozowaniu"
+  subtitle: "Utitlization of Big Data methods in forecasting"
+  author: "Łukasz Wawrowski"
+  date: "2023"
+  chapters:
+    - index.qmd
+    - rozdzial1-opis.qmd
+    - rozdzial2-metoda.qmd
+    - rozdzial3-analiza.qmd
+    - podsumowanie.qmd
+  references: references.qmd
+  appendices: 
+    - zalacznik1.qmd
+
+bibliography: references.bib
+csl: apa.csl
+lang: pl
+
+format:
+  pdf:
+    documentclass: scrreprt
+    lof: true
+    lot: true
+
+
+
