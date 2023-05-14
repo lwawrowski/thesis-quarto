@@ -29,7 +29,7 @@ format:
     lof: true
     lot: true
     titlepage-theme:
-      elements: ["\\logoblock", "Studia podyplomowe Big Data Analytics & Society \\vspace{1.5cm}", 
+      elements: ["\\logoblock", "Studia podyplomowe Big Data --- Analytics & Society \\vspace{1.5cm}", 
       "\\headerblock", "\\titleblock", "Praca dyplomowa \\vspace{3cm}", 
       "\\footerblock", "\\vfill", "\\dateblock"]
       page-align: "center"
